@@ -1,38 +1,213 @@
-.App {
-  text-align: center;
+ @font-face {
+  font-family: 'poppinsblack';
+  src: url('./fonts/poppins-black-webfont.woff2') format('woff2'),
+       url('./fonts/poppins-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'poppinsbold';
+  src: url('./fonts/poppins-bold-webfont.woff2') format('woff2'),
+       url('./fonts/poppins-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'poppinslight';
+  src: url('./fonts/poppins-light-webfont.woff2') format('woff2'),
+       url('./fonts/poppins-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@font-face {
+  font-family: 'poppinsregular';
+  src: url('./fonts/poppins-regular-webfont.woff2') format('woff2'),
+       url('./fonts/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'poppinsmedium';
+  src: url('./fonts/poppins-medium-webfont.woff2') format('woff2'),
+       url('./fonts/poppins-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'poppinsregular';
+}
+
+header{
+  padding: 20px 45px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+}
+.img{
+  height: 40px;
+}
+.section{
+  padding: 20px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
+}
+.hero--img{
+  align-self: center;
+  max-width: 600px;
+}
+.hero--header{
+  font-size: 46px;
+  margin-bottom: 6px;
+  padding-left: 35px;
+  font-family: 'poppinsbold';
+  
+}
+.hero--text{
+  font-size: 20px;
+  padding-left: 39px; 
+  width: 400px;
+  font-family: 'poppinslight';
+}
+section{
+  padding-left: 30px;
+  padding-bottom: 15px;
+  position: relative;
+  box-shadow: 0px 2.98256px 7.4564px 3px rgba(2,2,2,0.1);
+}
+.card--pic{
+  height: 350px;
+  width: 250px;
+}
+.each-pic{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.card--pic > button{
+  padding: 5px 10px;
+  margin: 10px 0px 0px 7px;
+}
+.card-para{
+  font-size: 'poppinslight';
+}
+.star{
+  height: 15px;
+}
+span{
+  color: #918E9B;
+}
+
+.app--card{
+  display: flex;
+  overflow: scroll;
+}
+.btn{
+  position: absolute;
+  top: 6px;
+  margin-left: 7px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+@media only screen and (max-width: 600px){
+  
+header{
+  padding: 20px 15px;
+}
+.section{
+  margin-bottom: 0px;
+}
+.img{
+  height: 25px;
+}
+.hero--img{
+  max-width: 350px;
+}
+.hero--header{
+  font-size: 30px;
+  margin-top: 40px;
+  padding-left: 0px;
+}
+.hero--text{
+  font-size: 20px;
+  padding-left: 0px; 
+  width: 100%;
+}
+section{
+  padding-bottom: 25px;
+}
+
+}
+
+
+
+
+/* 
+nav{
+  background-color: #F55A5A;
+  height: 60px;
+
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.nav--img{
+  height: 24px;
+  width: 24px;
+  margin-right: 15px;
+}
+.nav--text{
+  color: #FFFFFF;
+}
+section{
+  height: 250px;
+  margin: 55px;
 
-.App-link {
-  color: #61dafb;
+  display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card--pic--div{
+width: 200px;
 }
+.card--pic{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.location-icon{
+  height: 12px;
+}
+.card--text--div{
+  padding: 15px;
+  width: 550px;
+}
+.card--link{
+  color:#918E9B;
+  margin-left: 10px;
+}
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'poppinsbold';
+}
+.card--date{
+  color: #2B283A;
+}
+p{
+  line-height: 23px;
+} */
