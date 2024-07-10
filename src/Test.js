@@ -4,7 +4,7 @@ const run = [
           id:1,
           img:'./images/image12.png',
           name:'Life lessons with Katie Zaferes',
-          price:136,
+          price:138,
           rating:'5.0',
           reviewCount:6,
           country:'USA',
